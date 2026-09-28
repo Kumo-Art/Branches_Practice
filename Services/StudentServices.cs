@@ -5,7 +5,7 @@ namespace Branches_Practice.Services
     public class StudentServices : IStudentServices
     {
         
-        List<string> _studentList = ["Student 1", "Student 2", "Student 3"];
+        List<string> _studentList = ["Brandon Langehennig", "Student 2", "Student 3"];
         
         
         
