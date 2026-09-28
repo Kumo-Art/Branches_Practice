@@ -8,5 +8,7 @@ namespace Branches_Practice.Services
     public interface IStudentServices
     {
         public List<string> StudentGetAll();
+
+        public int StudentCount();
     }
 }

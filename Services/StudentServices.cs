@@ -14,5 +14,10 @@ namespace Branches_Practice.Services
             return _studentList;
         }
 
+        public int StudentCount()
+        {
+            return StudentCount;
+        }
+
     }
 }
