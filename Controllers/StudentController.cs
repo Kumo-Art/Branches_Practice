@@ -28,7 +28,7 @@ namespace Branches_Practice.Controllers
         [HttpGet("GetCount")]
         public ActionResult<int> GetCount()
         {
-            return Ok(_studentServices.StudentCount());
+            return Ok(_studentServices.StudentGetAll());
         }
     }
 }
